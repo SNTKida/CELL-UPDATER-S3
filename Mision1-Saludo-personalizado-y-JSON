@@ -1,0 +1,57 @@
+import json
+import os
+
+
+def config_json():
+    archivo_config = "config.json"
+
+    #si el archivo existe, entonces cargamos los datos
+    if os.path.exists(archivo_config): #os.path es unmódulo fundamental en Python para manipular rutas de archivos de forma independiente del sistema operativo
+        with open(archivo_config, 'r', encoding= 'utf-8') as f: #as file
+            config = json.load(f)
+
+    #si no existe, es la primera vez que se meten los datos:
+    else:
+       
+        Presentacion = (f"Hola, soy CELL Updater-S3🎮")
+        User_o_Nombre = " "
+        while not User_o_Nombre.strip(): #Strip es para evitar espacios en blanco
+            User_o_Nombre = input(f" {Presentacion} ¿Me puedes decir tu nombre (o Username), por favor?: ")
+        if not User_o_Nombre.strip():
+            print(f"⚠️ ¡Hey! Necesito que me digas tu nombre para saludarte adecuadamente y recordarte.")
+
+        print("\nElige tu idioma / Choose your language: ")
+        print("1. Español")
+        print("2. English")
+        opcion = input("Por favor, selecciona tu idioma: ")
+        idioma = "en" if opcion == "2" else "es"
+
+        config = {
+            "User": User_o_Nombre,
+            "idioma":  idioma
+            }
+
+#Guardamos para siempre:
+    with open(archivo_config, "w", encoding="utf-8") as f:
+        json.dump(config,f,indent=4)
+
+    return config
+
+#CELL Updater reconocera al usuario y le dara los buenos dias, tardes y noches dependendiendo la hora.
+
+datos_usuario = config_json()
+nombre_actual = datos_usuario["User"]
+time.sleep(3)
+Saludos = ["Buenos dias!", "Buenas tardes!", "Buenas noches!"]
+hora = datetime.now().hour
+
+if 6 <= hora < 11:
+    mensaje = Saludos[0]
+elif 12 <= hora < 18:
+    mensaje = Saludos[1]
+else:
+    mensaje = Saludos[2]
+
+time.sleep(2)
+print(f"{mensaje} {nombre_actual}")
+time.sleep(2)
