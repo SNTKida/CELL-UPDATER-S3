@@ -1,0 +1,64 @@
+import psutil
+import cpuinfo
+import wmi
+
+def detector_de_hardware():
+    print (" ")
+analizador = wmi.WMI() #Colocar esta variable aqui y no repetirla mas por seguridad, esto es como un identificador de todo lo que tiene la pc
+
+
+    # Identificar CPU o Procesador:
+
+print("Buscando Cerebro (tu procesador, es decir, tu CPU.)")
+Info_del_cpu = cpuinfo.get_cpu_info () ["brand_raw"]
+    
+time.sleep(3)
+     # Identificador de RAM
+
+print("Buscando Memoria (tu RAM.)")
+ram_total = round(psutil.virtual_memory(). total /  (1024**3) )
+        
+
+#     #Detectar modulos individuales de la RAM
+
+modulos = analizador.Win32_PhysicalMemory ()
+#print (f"Detalle de la memoria:")
+#print (f"Tienes {ram_total} GB.")
+
+for i, modulo in enumerate(modulos) :
+     capacidad = int (modulo.Capacity) / (1024**3)
+print("Veamos con cuantos modulos cuentas👀")
+
+
+time.sleep(3)
+# # Identificador de grafica:
+
+print("Escaneando Potencia Cruda Visual (tu grafica, amigo 😉.)")
+ #Para verificar si esta vacia la parte del a grafica
+Video_controllers = analizador.Win32_VideoController()
+        
+
+ # Si no hay grafica: 
+if not Video_controllers:
+    print ("Uy 🤔 Parece que no tienes una grafica dedicada, solo la integrada, abortando mision.")
+    
+     
+#Llamar a la funcion:
+detector_de_hardware()
+
+    
+    
+                     
+informacion_del_gpu = Video_controllers[0].Name #si hay una grafica, ahora se guarda aqui con el [].Nam
+informacion_del_cpu = Info_del_cpu
+informacion_de_la_RAM = ram_total
+
+
+print(f"\n✅ LISTO, ENCONTRE LA INFORMACION DE TU HARDWARE:")
+print(f"🧠 CPU: {informacion_del_cpu}")
+print(f"📝 RAM: {informacion_de_la_RAM} GB ")
+print(f"📚 Modulos: {i+1}") 
+print(f"🖼️ GPU: {informacion_del_gpu}")
+print("-" * 38)
+
+detector_de_hardware()
