@@ -10,7 +10,7 @@ Sistema de gestión asistido por IA para la sincronización de binarios y respal
 
 ---
 
-## ℹ️ About
+## About
 
 **CELL UPDATER-S3** trasciende la idea de un simple instalador de actualizaciones. Es un sistema de gestión autónomo impulsado por **AMAZONA**, un agente de IA diseñado para blindar y optimizar tu experiencia de emulación en RPCS3.
 
@@ -20,7 +20,7 @@ Más que un script, es un asistente que cobra vida en tu dashboard, saludándote
 
 ---
 
-## 📊 Status del Proyecto
+## Status del Proyecto
 
 Inspirado en el desarrollo transparente de grandes proyectos open-source. Estado actual de los módulos en la versión `v0.2.0`:
 
@@ -35,19 +35,19 @@ Inspirado en el desarrollo transparente de grandes proyectos open-source. Estado
 
 ---
 
-## ✨ Características Principales
+##  Características Principales
 
-- 🛡️ **Zero Data Loss:** Copia de seguridad atómica de `dev_hdd0` `config` `config.yml` `Guiconfig` `input_configs` `dev_flash` y `cache` antes de cada actualización.
-- 🧠 **Cerebro Multi-IA:** Fallback en cascada (DeepSeek ☁️(para dev)  → Ollama 🦙(para usuarios) → Texto Crudo 📄).
-- ⚡ **Segundo Plano:** Timer interno de 2h y verificación inmediata al arranque.
-- 📊 **Telemetría Real:** Monitoreo de CPU, RAM, GPU y SO en el dashboard.
-- 🌅 **Saludo Dinámico Contextual:** El dashboard cobra vida saludando al usuario por su nombre, idioma y adaptando el mensaje según la hora del día (mañana, tarde, noche), creando una experiencia personalizada y cercana.
-- 🗣️ **Mensajes Inteligentes Irrepetibles:** AMAZONA nunca repite el mismo saludo ni el mismo resumen. Cada interacción es única, generada en tiempo real con variación contextual, evitando la sensación de "plantilla fija" y creando una experiencia conversacional viva.
-- 🔒 **Privacidad:** Credenciales nunca empaquetadas. Configuración desacoplada.
+-  **Zero Data Loss:** Copia de seguridad atómica de `dev_hdd0` `config` `config.yml` `Guiconfig` `input_configs` `dev_flash` y `cache` antes de cada actualización.
+-  **Cerebro Multi-IA:** Fallback en cascada (DeepSeek ☁️(para dev)  → Ollama 🦙(para usuarios) → Texto Crudo 📄).
+-  **Segundo Plano:** Timer interno de 2h y verificación inmediata al arranque.
+-  **Telemetría Real:** Monitoreo de CPU, RAM, GPU y SO en el dashboard.
+-  **Saludo Dinámico Contextual:** El dashboard cobra vida saludando al usuario por su nombre, idioma y adaptando el mensaje según la hora del día (mañana, tarde, noche), creando una experiencia personalizada y cercana.
+-  **Mensajes Inteligentes Irrepetibles:** AMAZONA nunca repite el mismo saludo ni el mismo resumen. Cada interacción es única, generada en tiempo real con variación contextual, evitando la sensación de "plantilla fija" y creando una experiencia conversacional viva.
+-  **Privacidad:** Credenciales nunca empaquetadas. Configuración desacoplada.
 
 ---
 
-## 🧠 Ecosistema de IA
+##  Ecosistema de IA
 
 El proyecto implementa un sistema multi-agente para el procesamiento de datos:
 
@@ -56,7 +56,7 @@ El proyecto implementa un sistema multi-agente para el procesamiento de datos:
 
 ---
 
-## 🛠️ Instalación
+##  Instalación
 
 
 1. Descarga el último `.zip` desde [Releases](https://github.com/SNTKida/CELL-Updater-S3/releases).
@@ -67,7 +67,7 @@ El proyecto implementa un sistema multi-agente para el procesamiento de datos:
 
 ---
 
-## 📝 Nota de Versión y Desarrollo
+##  Nota de Versión y Desarrollo
 
 **CELL UPDATER-S3** es un proyecto en evolución continua. La versión actual (`v0.2.0 Alpha`) representa el núcleo funcional del sistema, pero el roadmap incluye características avanzadas como la auto-actualización del propio gestor y soporte multiplataforma. 
 
