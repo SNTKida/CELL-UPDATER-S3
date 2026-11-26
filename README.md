@@ -45,7 +45,7 @@ Inspirado en el desarrollo transparente de grandes proyectos open-source. Estado
 -  **Mensajes Inteligentes Irrepetibles:** AMAZONA nunca repite el mismo saludo ni el mismo resumen. Cada interacción es única, generada en tiempo real con variación contextual, evitando la sensación de "plantilla fija" y creando una experiencia conversacional viva.
 -  **Privacidad:** Credenciales nunca empaquetadas. Configuración desacoplada.
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 Antes de ejecutar CELL UPDATER-S3, asegúrate de cumplir con lo siguiente:
 
@@ -66,12 +66,12 @@ Para usar el resumen inteligente de cambios con IA local (sin costos de API):
 
 El proyecto implementa un sistema multi-agente para el procesamiento de datos:
 
-- **AMAZONA** 🤖 — Agente principal. Genera resúmenes de changelog, gestiona la cascada de IA y monitorea la integridad.
+- **AMAZONA** 🤖 — Agente principal. Genera resúmenes de changelog, gestiona procesos de automatizacion de actualizaciones, reconoce al usuario y monitorea la integridad del sistema en tiempo real.
 - **CELL Updater** ⚙️ — Asistente técnico. Valida configuraciones, gestiona respaldos y supervisa el ciclo de vida del binario.
 
 ---
 
-## 🛠️ Instalación
+## Instalación
 
 ### Paso 1: Descargar el binario
 1. Ve a la página de [Releases](https://github.com/SNTKida/CELL-Updater-S3/releases).
@@ -93,7 +93,7 @@ Dentro de esta carpeta encontrarás:
 | Archivo/Carpeta | Descripción |
 |-----------------|-------------|
 | `user.json` | Tu configuración personal: nombre e idioma. |
-| `logs/` | Historial de logs del sistema (útil para diagnosticar problemas). |
+| `historial_de_actualizaciones` | Historial de logs del sistema (útil para diagnosticar problemas). |
 | `TempUpdate7z` | Respaldos atómicos de tus datos de RPCS3 (generados antes de cada actualización y se borran automaticamente una vez termine la actualizacion, protegiendo los datos mas importantes). |
 
 > **Nota:** La carpeta `AppData` está oculta por defecto en Windows. Puedes acceder rápidamente presionando `Win + R` y escribiendo `%LOCALAPPDATA%\CELL-Updater-S3`.
