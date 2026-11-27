@@ -5,7 +5,7 @@
 
   <h1>CELL UPDATER-S3</h1>
 
-  <h2>Update RPCS3. Never Lose a Save.</h2>
+  <h2>Update RPCS3. Know exactly what's new.</h2>
 
   <p>
     🇪🇸 Español
