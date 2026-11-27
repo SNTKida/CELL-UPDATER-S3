@@ -1,4 +1,4 @@
-# CELL UPDATER-S3
+
 <div align="center">
 
   ![CELL UPDATER-S3 Logo](https://raw.githubusercontent.com/SNTKida/CELL-UPDATER-S3/master/assets/icon_main.png)
