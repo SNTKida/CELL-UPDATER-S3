@@ -1,14 +1,40 @@
 # CELL UPDATER-S3
+<div align="center">
 
-Sistema de gestión asistido por IA para la sincronización de binarios y respaldo atómico en RPCS3.
+  ![CELL UPDATER-S3 Logo](https://raw.githubusercontent.com/SNTKida/CELL-UPDATER-S3/master/assets/icon_main.png)
 
-[![Versión](https://img.shields.io/badge/Versión-v0.2.0_Alpha-blue)](https://github.com/SNTKida/CELL-Updater-S3/releases)
-[![Python](https://img.shields.io/badge/Python-3.14+-yellow)](https://www.python.org/)
-[![PySide6](https://img.shields.io/badge/UI-PySide6_(Qt6)-green)](https://www.qt.io/product/qt6)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  <h1>CELL UPDATER-S3</h1>
 
+  <h2>Update RPCS3. Never Lose a Save.</h2>
 
----
+  <p>
+    🇪🇸 Español
+  </p>
+
+  <hr />
+
+  <p>
+    <strong>Autonomous update manager for the RPCS3 emulator, powered by the AI agent AMAZONA.</strong><br/>
+    Atomic backups guarantee zero data loss, while the Multi-AI Brain translates every build's technical changes into natural language.
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/version-v0.2.0-orange?style=flat-square" alt="Version"/>
+    <img src="https://img.shields.io/badge/status-Alpha-yellow?style=flat-square" alt="Status"/>
+    <img src="https://img.shields.io/badge/Python-3.14-blue?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows"/>
+    <img src="https://img.shields.io/badge/license-GPLv3-green?style=flat-square" alt="License"/>
+    <img src="https://img.shields.io/badge/model-Open%20Core-9b59b6?style=flat-square" alt="Open Core"/>
+  </p>
+
+  <p>
+    <a href="https://github.com/SNTKida/CELL-UPDATER-S3/releases/latest">
+      <img src="https://img.shields.io/badge/⬇%20Download%20Latest%20Release-181717?style=for-the-badge&logo=github&logoColor=white" alt="Download"/>
+    </a>
+  </p>
+
+</div>
+
 
 ## About
 
