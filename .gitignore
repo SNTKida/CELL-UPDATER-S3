@@ -1,0 +1,55 @@
+# ==========================================
+# CELL UPDATER-S3 - .gitignore
+# ==========================================
+
+# === Compilaciones y builds (NUNCA subir) ===
+dist/
+build/
+*.dist/
+*.build/
+*.onefile-build/
+nuitka-crash-report.xml
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# === Credenciales y entorno (CRÍTICO) ===
+.env
+
+# === Datos de usuario y logs ===
+User/
+logs/
+*.log
+error_log.txt
+backups/
+
+# === Documentación interna y notas personales ===
+Documentacion del cell/
+HOJA DE RUTA (MISIONES).txt
+Recomendaciones y futuros cambios.txt
+bat maestro con 7z forzado.txt
+BUGFIXES_CELL_UPDATER_S3.py
+
+# === Scripts de prueba y tests ===
+test_AMAZONA_*.py
+test_standalone_amazona.py
+CELL UPDATER DE PRUEBA.pdf
+expanduser y joint.png
+
+# === Bats de compilación (opcional, pero mejor no subir) ===
+FINAL.bat
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.sublime-*
+*.sublime-*
